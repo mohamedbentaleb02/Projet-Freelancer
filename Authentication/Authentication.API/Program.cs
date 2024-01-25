@@ -1,12 +1,14 @@
 using Authentication.Application;
 using Authentication.Infrastructure;
+using Mapster;
+using MapsterMapper;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -22,13 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-{
+//app.UseExceptionHandler("/error");
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-    app.Run();
-}
-
 app.Run();

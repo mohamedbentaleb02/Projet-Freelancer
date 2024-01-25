@@ -3,12 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Application", "Authentication.Application\Authentication.Application.csproj", "{6BBDF92C-E80A-4BAF-B76C-E0ABF9B6AC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Application", "Authentication.Application\Authentication.Application.csproj", "{6BBDF92C-E80A-4BAF-B76C-E0ABF9B6AC09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Domain", "Authentication.Domain\Authentication.Domain.csproj", "{FC26EC73-B011-4890-873F-716F43F5FF7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Domain", "Authentication.Domain\Authentication.Domain.csproj", "{FC26EC73-B011-4890-873F-716F43F5FF7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Infrastructure", "Authentication.Infrastructure\Authentication.Infrastructure.csproj", "{24FE592E-3244-4134-AAF9-1979172C3FC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Infrastructure", "Authentication.Infrastructure\Authentication.Infrastructure.csproj", "{24FE592E-3244-4134-AAF9-1979172C3FC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.API", "Authentication.API\Authentication.API.csproj", "{3706F96E-AF20-4A59-9FAD-45A783EF9C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0F09A68-D8EF-4314-B10F-274F7E01C997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0F09A68-D8EF-4314-B10F-274F7E01C997}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0F09A68-D8EF-4314-B10F-274F7E01C997}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0F09A68-D8EF-4314-B10F-274F7E01C997}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6BBDF92C-E80A-4BAF-B76C-E0ABF9B6AC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6BBDF92C-E80A-4BAF-B76C-E0ABF9B6AC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BBDF92C-E80A-4BAF-B76C-E0ABF9B6AC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,6 +29,10 @@ Global
 		{24FE592E-3244-4134-AAF9-1979172C3FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24FE592E-3244-4134-AAF9-1979172C3FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24FE592E-3244-4134-AAF9-1979172C3FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3706F96E-AF20-4A59-9FAD-45A783EF9C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3706F96E-AF20-4A59-9FAD-45A783EF9C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3706F96E-AF20-4A59-9FAD-45A783EF9C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3706F96E-AF20-4A59-9FAD-45A783EF9C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
