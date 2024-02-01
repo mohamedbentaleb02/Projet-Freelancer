@@ -1,13 +1,13 @@
-﻿using Authentication.Application.Commands.Register;
-using Authentication.Application.Common.Interfaces;
-using Authentication.Application.ViewModels;
-using Authentication.Domain.Entities;
+﻿using Freelance.Application.Authentication.Commands.Register;
+using Freelance.Application.Authentication.Common.Interfaces;
+using Freelance.Application.ViewModels;
+using Freelance.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using System.Data;
 using System.Reflection;
 using System.Text;
 
-namespace Authentication.Application.Services;
+namespace Freelance.Application.Services;
 
 public class RegisterService : IRegisterService
 {

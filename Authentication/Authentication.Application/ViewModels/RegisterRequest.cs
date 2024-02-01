@@ -1,4 +1,4 @@
-﻿namespace Authentication.Application.ViewModels;
+﻿namespace Freelance.Application.ViewModels;
 
 public record RegisterRequest(
         string FirstName,

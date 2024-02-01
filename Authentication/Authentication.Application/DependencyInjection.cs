@@ -1,11 +1,11 @@
 ﻿using MediatR;
-using Authentication.Application.Services;
+using Freelance.Application.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Mapster;
 using MapsterMapper;
 using System.Reflection;
 
-namespace Authentication.Application;
+namespace Freelance.Application;
 
 public static class DependencyInjection
 {

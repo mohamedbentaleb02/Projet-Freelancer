@@ -1,4 +1,4 @@
-﻿namespace Authentication.Infrastructure.Jwt;
+﻿namespace Freelance.Infrastructure.Persistence.Jwt;
 
 public class JwtSettings
 {

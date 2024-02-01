@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Authentication.API.Controllers;
+namespace Freelance.Application.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

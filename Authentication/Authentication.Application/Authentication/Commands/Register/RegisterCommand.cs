@@ -1,7 +1,7 @@
-﻿using Authentication.Application.ViewModels;
+﻿using Freelance.Application.ViewModels;
 using MediatR;
 
-namespace Authentication.Application.Commands.Register;
+namespace Freelance.Application.Authentication.Commands.Register;
 
 public record RegisterCommand(
     string FirstName,

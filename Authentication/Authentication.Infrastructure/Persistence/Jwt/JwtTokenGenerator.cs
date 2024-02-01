@@ -1,12 +1,12 @@
-﻿using Authentication.Application.Common.Interfaces;
-using Authentication.Domain.Entities;
+﻿using Freelance.Application.Authentication.Common.Interfaces;
+using Freelance.Domain.Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Authentication.Infrastructure.Jwt;
+namespace Freelance.Infrastructure.Persistence.Jwt;
 
 public class JwtTokenGenerator : IJwtTokenGenerator
 {

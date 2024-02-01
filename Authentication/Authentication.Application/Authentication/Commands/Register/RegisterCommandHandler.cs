@@ -1,8 +1,8 @@
-﻿using Authentication.Application.Services;
-using Authentication.Application.ViewModels;
+﻿using Freelance.Application.Services;
+using Freelance.Application.ViewModels;
 using MediatR;
 
-namespace Authentication.Application.Commands.Register;
+namespace Freelance.Application.Authentication.Commands.Register;
 
 public class RegisterCommandHandler : IRequestHandler<RegisterCommand, AuthenticationResponse>
 {

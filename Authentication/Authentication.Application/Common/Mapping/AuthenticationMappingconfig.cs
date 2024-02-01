@@ -1,8 +1,8 @@
-﻿using Authentication.Application.Commands.Register;
-using Authentication.Application.ViewModels;
+﻿using Freelance.Application.Authentication.Commands.Register;
+using Freelance.Application.ViewModels;
 using Mapster;
 
-namespace Authentication.API.Common.Mapping;
+namespace Freelance.Application.Common.Mapping;
 
 public class AuthenticationMappingconfig : IRegister
 {

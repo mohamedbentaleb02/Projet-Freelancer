@@ -1,7 +1,7 @@
-﻿using Authentication.Application.ViewModels;
+﻿using Freelance.Application.ViewModels;
 using MediatR;
 
-namespace Authentication.Application.Queries.Login;
+namespace Freelance.Application.Authentication.Queries.Login;
 
 public record LoginQuery(
     string Email,

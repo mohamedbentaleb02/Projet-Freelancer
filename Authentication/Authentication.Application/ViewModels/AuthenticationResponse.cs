@@ -1,7 +1,7 @@
-﻿using Authentication.Domain.Entities;
+﻿using Freelance.Domain.Entities;
 
 
-namespace Authentication.Application.ViewModels;
+namespace Freelance.Application.ViewModels;
 
 public record AuthenticationResponse(
         string FirstName,

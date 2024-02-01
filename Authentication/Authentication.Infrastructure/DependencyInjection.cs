@@ -1,11 +1,11 @@
-﻿using Authentication.Application.Common.Interfaces;
-using Authentication.Infrastructure.Jwt;
+﻿using Freelance.Application.Authentication.Common.Interfaces;
+using Freelance.Infrastructure.Persistence.Jwt;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Authentication.Infrastructure;
+namespace Freelance.Infrastructure;
 
 public static class DependencyInjection
 {

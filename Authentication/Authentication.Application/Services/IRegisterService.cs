@@ -1,7 +1,7 @@
-﻿using Authentication.Application.Commands.Register;
-using Authentication.Application.ViewModels;
+﻿using Freelance.Application.Authentication.Commands.Register;
+using Freelance.Application.ViewModels;
 
-namespace Authentication.Application.Services;
+namespace Freelance.Application.Services;
 
 public interface IRegisterService
 {

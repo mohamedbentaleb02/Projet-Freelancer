@@ -1,11 +1,11 @@
-﻿using Authentication.Application.Commands.Register;
-using Authentication.Application.Queries.Login;
-using Authentication.Application.ViewModels;
+﻿using Freelance.Application.Authentication.Commands.Register;
+using Freelance.Application.Authentication.Queries.Login;
+using Freelance.Application.ViewModels;
 using MapsterMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Authentication.API.Controllers;
+namespace Freelance.Application.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -23,6 +23,7 @@ public class AuthenticationController : ControllerBase
     [HttpPost("register")]
     public async Task<ActionResult> Register(RegisterRequest request, string role)
     {
+        //mapping error to be fixed ...!
         //var command = _mapper.Map<RegisterCommand>((request, role));
         var command = new RegisterCommand(
             request.FirstName,
