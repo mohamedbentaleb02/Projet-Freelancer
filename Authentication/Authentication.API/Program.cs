@@ -1,8 +1,5 @@
 using Authentication.Application;
 using Authentication.Infrastructure;
-using Mapster;
-using MapsterMapper;
-using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
